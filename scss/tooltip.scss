@@ -1,0 +1,37 @@
+// Tooltip
+[data-toggle="tooltip"] 
+  img,
+  i
+    margin: 0 3px
+    max-width: 15px
+    &:hover
+      cursor: pointer
+  i 
+    display: inline-block
+    width: 14px
+    height: 14px
+    background-image: url(https://s3-ap-southeast-2.amazonaws.com/uploads.sealink.com.au/favicons/favicon-16x16.png)
+    background-position: center
+    background-repeat: no-repeat
+.tooltip
+  font-size: 14px
+  font-weight: normal
+  line-height: 17px
+  &.in
+    opacity: 1
+  .tooltip-inner
+    max-width: 350px
+    padding: 10px 10px 10px 12px
+    color: #fff
+    text-align: left
+    text-decoration: none
+    background-color: #3d3b3b
+    border-radius: 0
+    a
+      color: #fcb13a
+  &.right
+    margin-left: 5px
+    .tooltip-arrow
+      border-right-color: #3d3b3b
+
+
